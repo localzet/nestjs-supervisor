@@ -5,5 +5,5 @@
 ## Installation
 
 ```bash
-npm install @localzet/supervisor-nestjs
+npm install @localzet/nestjs-supervisor
 ```

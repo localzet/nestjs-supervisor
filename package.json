@@ -1,5 +1,5 @@
 {
-  "name": "@localzet/supervisor-nestjs",
+  "name": "@localzet/nestjs-supervisor",
   "version": "1.0.0",
   "description": "NestJS module for Supervisor",
   "main": "build/index.js",
@@ -10,11 +10,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/localzet/supervisor-nestjs.git"
+    "url": "git+https://github.com/localzet/nestjs-supervisor.git"
   },
-  "homepage": "https://github.com/localzet/supervisor-nestjs#readme",
+  "homepage": "https://github.com/localzet/nestjs-supervisor#readme",
   "bugs": {
-    "url": "https://github.com/localzet/supervisor-nestjs/issues"
+    "url": "https://github.com/localzet/nestjs-supervisor/issues"
   },
   "author": "Ivan Zorin <creator@localzet.com>",
   "license": "AGPL-3.0-only",
