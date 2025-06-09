@@ -1,0 +1,39 @@
+{
+  "name": "@localzet/supervisor-nestjs",
+  "version": "1.0.0",
+  "description": "NestJS module for Supervisor",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "scripts": {
+    "prepublish": "rimraf build && tsc",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/localzet/supervisor-nestjs.git"
+  },
+  "homepage": "https://github.com/localzet/supervisor-nestjs#readme",
+  "bugs": {
+    "url": "https://github.com/localzet/supervisor-nestjs/issues"
+  },
+  "author": "Ivan Zorin <creator@localzet.com>",
+  "license": "AGPL-3.0-only",
+  "keywords": [],
+  "dependencies": {
+    "@nestjs/common": "^11.0.12",
+    "@nestjs/core": "^11.0.12"
+  },
+  "peerDependencies": {
+    "node-supervisord": ">=1.0.6-rc.2"
+  },
+  "devDependencies": {
+    "@types/node": "22.13.14",
+    "@typescript-eslint/eslint-plugin": "7.2.0",
+    "@typescript-eslint/parser": "7.2.0",
+    "eslint": "8.56.0",
+    "eslint-config-prettier": "9.0.0",
+    "eslint-plugin-prettier": "5.0.0",
+    "rimraf": "^6.0.1",
+    "typescript": "5.8.2"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "projects": {
+    "xtls-sdk-nestjs": {
+      "type": "library",
+      "root": "./",
+      "entryFile": "index",
+      "sourceRoot": "./src",
+      "compilerOptions": {
+        "tsConfigPath": "./tsconfig.lib.json"
+      }
+    },
+    "xtls-sdk-nestjs1": {
+      "type": "library",
+      "root": "libs/xtls-sdk-nestjs1",
+      "entryFile": "index",
+      "sourceRoot": "libs/xtls-sdk-nestjs1/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/xtls-sdk-nestjs1/tsconfig.lib.json"
+      }
+    }
+  },
+  "compilerOptions": {
+    "webpack": true
+  }
+}
