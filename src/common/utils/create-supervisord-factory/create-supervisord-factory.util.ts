@@ -6,6 +6,6 @@ const logger = new Logger('nestjs-supervisor');
 
 export function createSupervisordFactory(moduleOptions: ISupervisordConfig): SupervisordClient {
     const supervisor = new SupervisordClient(moduleOptions.host, moduleOptions.options);
-    logger.log(`Supervisord initialized`);
+    logger.log('Supervisord initialized');
     return supervisor;
 }
